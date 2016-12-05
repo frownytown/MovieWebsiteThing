@@ -5,12 +5,12 @@ toy_story = m.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
-print(toy_story.storyline)
+#print(toy_story.storyline)
 avatar = m.Movie("Avatar",
                  "A Marine on an alien planet",
                  "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                  "https://www.youtube.com/watch?v=5PSNL1qE6VY")
-print(avatar.storyline)
+#print(avatar.storyline)
 
 always_sunny = m.Movie("It's Always Sunny in Philidelphia",
                        "Some friends own a bar",
@@ -23,21 +23,22 @@ always_sunny = m.Movie("It's Always Sunny in Philidelphia",
 #always_sunny.show_poster()
 the_last_airbender = m.Movie("The Last Airbender",
                              "The Last Airbender must defeat the Firelord",
-                             "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender#/media/File:Avatar_world_map.jpg",
+                             "https://images-na.ssl-images-amazon.com/images/I/51usRZ5aNIL._SY344_BO1,204,203,200_.jpg",
                              "https://www.youtube.com/watch?v=dMnDkFktGF4")
 
 banshee = m.Movie("Banshee",
                   "A man poses as a Sherriff",
-                  "https://en.wikipedia.org/wiki/Banshee_(TV_series)#/media/File:TV_series_-_Banshee_Title_Card.jpg",
+                  "http://www.impawards.com/tv/posters/banshee_cinemax.jpg",
                   "https://www.youtube.com/watch?v=-fvSG8KmWTY")
 
 dr_horrible = m.Movie("Dr. Horrible's Sing-Along Blog",
                       "A mad scientist attempts to woo a woman",
-                      "https://en.wikipedia.org/wiki/Dr._Horrible's_Sing-Along_Blog#/media/File:Doctor_Horrible_Banner.jpg",
+                      "https://images-na.ssl-images-amazon.com/images/I/512IePeoDvL.jpg",
                       "https://www.youtube.com/watch?v=0nn0zSbn7gc")
 movies = [toy_story, avatar, always_sunny, the_last_airbender, banshee, dr_horrible]
-fresh_tomatoes.open_movies_page(movies)
-                      
+#fresh_tomatoes.open_movies_page(movies)
+#print(m.Movie.VALID_RATINGS)
+print(m.Movie.__module__)
 
                              
                  
